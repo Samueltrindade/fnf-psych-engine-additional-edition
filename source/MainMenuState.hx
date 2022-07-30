@@ -1,7 +1,6 @@
 package;
 
 import Discord.DiscordClient;
-#end
 import flixel.FlxG;
 import flixel.FlxObject;
 import flixel.FlxSprite;
