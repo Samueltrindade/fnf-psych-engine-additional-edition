@@ -1,5 +1,5 @@
 package;
-
+#if android
 import Discord.DiscordClient;
 import flixel.FlxG;
 import flixel.FlxObject;
@@ -51,7 +51,7 @@ class MainMenuState extends MusicBeatState
 		Paths.pushGlobalMods();
 		#end
 		WeekData.loadTheFirstEnabledMod();
-
+    #if android
 		DiscordClient.changePresence("Nos Menus", null);// Updating Discord Rich Presence
 		#end
 		debugKeys = ClientPrefs.copyKey(ClientPrefs.keyBinds.get('debug_1'));
