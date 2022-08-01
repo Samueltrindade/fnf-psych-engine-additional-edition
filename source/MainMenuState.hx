@@ -1,6 +1,6 @@
 package;
 
-#if (desktop || android)
+#if desktop
 import Discord.DiscordClient;
 #end
 import flixel.FlxG;
@@ -54,7 +54,7 @@ class MainMenuState extends MusicBeatState
 		#end
 		WeekData.loadTheFirstEnabledMod();
 
-		#if (desktop || android)
+		#if desktop
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("Nos menus", null);
 		#end
@@ -260,7 +260,7 @@ class MainMenuState extends MusicBeatState
 					});
 				}
 			}
-			#if (desktop || android)
+			#if desktop
 			else if (FlxG.keys.anyJustPressed(debugKeys) #if android || virtualPad.buttonE.justPressed #end)
 			{
 				selectedSomethin = true;
