@@ -6,7 +6,7 @@
 				-3
 			],
 			"indices": [],
-			"fps": 24,
+			"fps": 12,
 			"anim": "deathLoop",
 			"loop": true,
 			"name": "BF Dead with GF Loop"
@@ -17,7 +17,7 @@
 				14
 			],
 			"indices": [],
-			"fps": 24,
+			"fps": 12,
 			"anim": "firstDeath",
 			"loop": false,
 			"name": "BF Dies with GF"
@@ -28,7 +28,7 @@
 				28
 			],
 			"indices": [],
-			"fps": 24,
+			"fps": 12,
 			"anim": "deathConfirm",
 			"loop": false,
 			"name": "RETRY confirm holding gf"

@@ -106,7 +106,7 @@
 				90
 			],
 			"anim": "bfCatch",
-			"fps": 24,
+			"fps": 12,
 			"name": "BF catches GF",
 			"indices": []
 		}
